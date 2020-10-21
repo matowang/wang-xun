@@ -1,0 +1,20 @@
+$navbar-height: 2em;
+
+.navbar {
+    position: fixed;
+    background: #585858;
+    width: 100%;
+    height: $navbar-height;
+    font-size: .8em;
+    &__list {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: .1em;
+        justify-content: space-between;
+    }
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+}

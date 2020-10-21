@@ -1,0 +1,5 @@
+@use 'navbar';
+
+.header-space {
+    height: navbar.$navbar-height
+}
