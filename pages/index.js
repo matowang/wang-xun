@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Layout from '../layout';
 
+import WorksGrid from '../components/works-grid';
+
 export default function Home() {
   return (
     <Layout noHeaderSpace>
@@ -12,6 +14,7 @@ export default function Home() {
           <h1>王尋<br />Wang Xun</h1>
           <img id="expo-poster" src="/images/art-taipei-2021.jpg" alt="expo poster" />
         </section>
+        <WorksGrid />
         <div className="content">
           <section className="description">
             <p>Born in the era of traditional art craftsmanship alongside the rise of digital development, I am an artist who has had the chance to utilize both of these art forms. After studying at the sculpture department at the National Taiwan University of Arts, I developed the ability to sculpt human figures and acquired expertise in the art of sculpting. Striving to innovate on my artistic path, I went abroad for further studies. After I graduated from the New York Institute of Technology, I did 3D modeling work in a well-known visual effects company for nearly a decade, and I became well-versed in 3D animation and digital art production. All of these experiences inspired me to combine traditional and digital art mediums into a single piece of artwork. Through continuous exploration based on traditional skills, coupled with high-tech expertise, I cultivated a set of unique personal cross-generational artworks, what I call the "Space in Time" sculptures.</p>

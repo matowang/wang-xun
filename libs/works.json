@@ -1,0 +1,57 @@
+[
+    {
+        "id": "competition",
+        "name": "Competition",
+        "cn-name": "競爭"
+    },
+    {
+        "id": "coopetition",
+        "name": "Coopetition",
+        "cn-name": "競合 "
+    },
+    {
+        "id": "love",
+        "name": "Love",
+        "cn-name": "愛 "
+    },
+    {
+        "id": "love-2",
+        "name": "Love 2",
+        "cn-name": "愛 2"
+    },
+    {
+        "id": "expecting",
+        "name": "Expecting",
+        "cn-name": "期待"
+    },
+    {
+        "id": "first-step",
+        "name": "First Step",
+        "cn-name": "第一步"
+    },
+    {
+        "id": "turn-into-adult",
+        "name": "Turn into Adult",
+        "cn-name": "轉大人"
+    },
+    {
+        "id": "seeking",
+        "name": "Seeking",
+        "cn-name": "找尋"
+    },
+    {
+        "id": "turning around",
+        "name": "Turning Around",
+        "cn-name": "翻轉"
+    },
+    {
+        "id": "indomitable",
+        "name": "Indomitable",
+        "cn-name": "頂天立地"
+    },
+    {
+        "id": "surpass",
+        "name": "Surpass",
+        "cn-name": "跨越"
+    }
+]
