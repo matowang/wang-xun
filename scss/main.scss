@@ -3,6 +3,12 @@
 
 @use './fonts';
 
+@use './components/expo-hero.scss';
+
+* {
+    box-sizing: border-box; 
+}
+
 body {
     font-family: 'Cutive Mono', 'cwTeXQYuan', monospace;
     font-size: 1em;

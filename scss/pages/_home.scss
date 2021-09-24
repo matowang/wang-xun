@@ -8,18 +8,37 @@
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        height: 100vh;
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
+        align-items: center;
         color: white;
+        height: 100vh;
         h1 {
             font-weight: normal;
             line-height: 1.5em;
         }
+        #expo-poster {
+            padding: 4rem;
+            object-fit: contain;
+        }
         @media (min-width: 500px) {
             background-image: url(/images/works/love/1.jpg);
+        }
+        @media (min-width: 1000px) {
+            flex-direction: row;
+            height: 100vh;
+            h1 {
+                margin: 0;
+                height: auto;
+                width: 60%;
+            }
+            #expo-poster {
+                height: 100%;
+                padding-right: 10%;
+                padding: 8rem;
+            }
         }
     }
 

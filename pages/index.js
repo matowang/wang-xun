@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Layout from '../layout'
+import Head from 'next/head';
+import Layout from '../layout';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
         </Head>
         <section className="hero">
           <h1>王尋<br />Wang Xun</h1>
+          <img id="expo-poster" src="/images/art-taipei-2021.jpg" alt="expo poster" />
         </section>
         <div className="content">
           <section className="description">
