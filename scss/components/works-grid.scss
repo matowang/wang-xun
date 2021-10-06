@@ -6,3 +6,10 @@
     justify-items: center;
     padding: 1rem;
 }
+
+.works-grid-item {
+    transition: opacity .2s;
+    &:hover {
+        opacity: 60%;
+    }
+}

@@ -21,6 +21,7 @@
         }
         #expo-poster {
             padding: 4rem;
+            height: 80%;
             object-fit: contain;
         }
         @media (min-width: 500px) {
@@ -29,15 +30,24 @@
         @media (min-width: 1000px) {
             flex-direction: row;
             height: 100vh;
+            
             h1 {
-                margin: 0;
-                height: auto;
-                width: 60%;
+                position: absolute;
+                left: 15%;
+                top: 40%;
             }
             #expo-poster {
-                height: 100%;
-                padding-right: 10%;
-                padding: 8rem;
+                position: absolute;
+                width: 15rem;
+                height: auto;
+                bottom: 10rem;
+                right: 10rem;
+                padding: 0;
+                object-fit:initial;
+                transition: width .2s;
+                &:hover {
+                    width: 30rem;
+                }
             }
         }
     }

@@ -6,6 +6,7 @@ $navbar-height: 2em;
     width: 100%;
     height: $navbar-height;
     font-size: .8em;
+    z-index: 10;
     &__list {
         list-style: none;
         display: flex;
