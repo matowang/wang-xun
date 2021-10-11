@@ -4,7 +4,7 @@ const Contacts = () => (
     < Layout >
         <main id="contacts">
             <div className="content">
-                <table>
+                <table className="contacts-table">
                     <tr>
                         <td>Email:</td>
                         <td>wangmorris@gmail.com</td>
@@ -12,6 +12,10 @@ const Contacts = () => (
                     <tr>
                         <td>手機/Phone: </td>
                         <td>(886)958-260-261</td>
+                    </tr>
+                    <tr>
+                        <td>Line: </td>
+                        <td><img id="line-qr-code" src="/images/line-qr-code.jpg" alt="line qr code" /></td>
                     </tr>
                 </table>
             </div>
