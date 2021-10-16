@@ -4,28 +4,31 @@
         margin: 0 1em;
     }
     .hero {
-        background: url(/images/works/expecting/1.jpg);
+        background: url(/images/hero-bg.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
-        color: white;
-        height: 100vh;
         h1 {
-            font-weight: normal;
+            font-weight: bold;
             line-height: 1.5em;
+            padding: 40vh 0 0 0;
+            color: white;
+            height: 100vh;
+            font-size: 2em;
+            font-weight: 100;
         }
         #expo-poster {
-            padding: 4rem;
             height: 80%;
             object-fit: contain;
+            padding: 1em;
         }
         @media (min-width: 500px) {
-            background-image: url(/images/works/love/1.jpg);
+            
         }
         @media (min-width: 1000px) {
             flex-direction: row;
@@ -35,18 +38,23 @@
                 position: absolute;
                 left: 15%;
                 top: 40%;
+                margin: 0;
+                padding: 0;
+                color: black;
             }
             #expo-poster {
                 position: absolute;
-                width: 15rem;
+                width: 10%;
                 height: auto;
                 bottom: 10rem;
                 right: 10rem;
                 padding: 0;
                 object-fit:initial;
-                transition: width .2s;
+                transition: width .2s, opacity .2s;
+                opacity: 80%;
                 &:hover {
                     width: 30rem;
+                    opacity: 100%;
                 }
             }
         }
