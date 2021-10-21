@@ -6,6 +6,10 @@ const Contacts = () => (
             <div className="content">
                 <table className="contacts-table">
                     <tr>
+                        <td>Résumé:</td>
+                        <td><a href="/resume/morris-resume.pdf">Morris 履歷 PDF</a></td>
+                    </tr>
+                    <tr>
                         <td>Email:</td>
                         <td>wangmorris@gmail.com</td>
                     </tr>
