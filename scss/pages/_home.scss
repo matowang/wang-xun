@@ -4,7 +4,7 @@
         margin: 0 1em;
     }
     .hero {
-        background: url(/images/hero-bg.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ),url(/images/hero-bg.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -40,7 +40,6 @@
                 top: 40%;
                 margin: 0;
                 padding: 0;
-                color: black;
             }
             #expo-poster {
                 position: absolute;
