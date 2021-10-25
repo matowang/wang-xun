@@ -19,7 +19,10 @@ const Contacts = () => (
                     </tr>
                     <tr>
                         <td>Line: </td>
-                        <td><img id="line-qr-code" src="/images/line-qr-code.jpg" alt="line qr code" /></td>
+                        <td>
+                            <span>morriswang2000</span><br />
+                            <img id="line-qr-code" src="/images/line-qr-code.jpg" alt="line qr code" />
+                        </td>
                     </tr>
                 </table>
             </div>
