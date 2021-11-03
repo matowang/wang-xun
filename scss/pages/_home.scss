@@ -76,13 +76,11 @@
         &__title{
             font-size: 1em;
         }
-        &--expecting {
-            @media (min-width: 600px) {
-                .work__imgs {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-                    grid-gap: 1em;
-                }
+        @media (min-width: 600px) {
+            .work__imgs--side-by-side {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+                grid-gap: 1em;
             }
         }
     }

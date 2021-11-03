@@ -64,7 +64,7 @@ export default function Home() {
             <h2 className="work__title">期待 Expecting</h2>
             <p>銅、花崗岩底座 Bronze, Granite Base</p>
             <p>L12.5 x D15.5 x H38 cm (含底座)</p>
-            <section className="work__imgs">
+            <section className="work__imgs work__imgs--side-by-side">
               <img src="/images/works/expecting/1.jpg" alt="statue" />
               <img src="/images/works/expecting/2.jpg" alt="statue" />
               <img src="/images/works/expecting/3.jpg" alt="statue" />
@@ -96,18 +96,22 @@ export default function Home() {
             <h2 className="work__title">找尋 Seeking</h2>
             <p>銅 Bronze</p>
             <p>L30 x D28 x H53 cm</p>
-            <img src="/images/works/seeking/1.jpg" alt="statue" />
-            <img src="/images/works/seeking/2.jpg" alt="statue" />
-            <img src="/images/works/seeking/3.jpg" alt="statue" />
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/seeking/1.jpg" alt="statue" />
+              <img src="/images/works/seeking/2.jpg" alt="statue" />
+              <img src="/images/works/seeking/3.jpg" alt="statue" />
+            </section>
             <p>「找尋」Seeking 是論述心靈成長的過程，亦是我創立的時差雕塑的成熟代表作，在作品中，藉由空間裡有序列動作的肢體語言來描述心靈內在的故事，甚至能將夢境中岀現的畫面一一呈現出來。每一刻的早晨，腦海裡都僅存著如實如幻的記憶，片片刻刻。「尋找」，即是這一刻珍貴僅存的記憶創作出的，在尋找實體的雕塑中，能到看到夢中海水的顏色波紋，層層疊疊，就像是在無邊無際的心靈深海中深深地、深深地找尋一個結果。「尋找」讓這如夢如幻的記憶，慢慢的成形，如同寬廣的大海中，總能見到海水的波紋，讓海水的記憶一層一層浮現。「尋找」探索夢中子虚烏有的時間，讓無中生有的記憶，找尋到消縱即逝的美好。</p>
           </article>
           <article id="turning-around" className="work work--turning-around">
             <h2 className="work__title">翻轉 Turning Around</h2>
             <p>銅、鐵底座 Bronze, Iron Base</p>
             <p>L40 x D28 x H49</p>
-            <img src="/images/works/turning-around/1.jpg" alt="statue" />
-            <img src="/images/works/turning-around/2.jpg" alt="statue" />
-            <img src="/images/works/turning-around/3.jpg" alt="statue" />
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/turning-around/1.jpg" alt="statue" />
+              <img src="/images/works/turning-around/2.jpg" alt="statue" />
+              <img src="/images/works/turning-around/3.jpg" alt="statue" />
+            </section>
             <p>「翻轉」Turning Around 2020 翻轉，是時差雕塑的另一層次的展現，講述人體在運動中的序列動作、這過程中包含著一段起的時間與空間。凡相信時間的人是不相信永恆，而時間與空間是兩個座標，時間一分一秒的流逝中，掌握不著任何一刻，消縱即逝、將這兩者合一的先決條件，就是用我們的記憶串連時間與空間。而王尋用動畫與雕塑的方式來呈現這個記憶的實體與型，藉雕塑的手，讓時間在型空間裡呈現永恆的存在。而翻轉更是呈現，一個人在成長的過程中，多多少少受環境影響導致失敗的經驗，但每個失敗，能有翻轉的時刻，起與落，都是生命特殊與珍貴的歷程，值得呈現這一刻。因此「轉翻」這件作品的出發點，就是呈現出翻轉人生的前後刻，也提醒每一個人都不可輕率的放棄自己、谷底的時候正是準備反轉我們的人生的那一刻。
             </p>
           </article>
@@ -115,20 +119,77 @@ export default function Home() {
             <h2 className="work__title">頂天立地 Indomitable</h2>
             <p>銅、鐵底座 Bronze, Iron Base</p>
             <p>L62 x D60 x H68 cm</p>
-            <img src="/images/works/indomitable/1.jpg" alt="statue" />
-            <img src="/images/works/indomitable/2.jpg" alt="statue" />
-            <img src="/images/works/indomitable/3.jpg" alt="statue" />
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/indomitable/1.jpg" alt="statue" />
+              <img src="/images/works/indomitable/2.jpg" alt="statue" />
+              <img src="/images/works/indomitable/3.jpg" alt="statue" />
+            </section>
             <p>「頂天立地」Indomitable 頂天立地反應兩個層面的領悟，一個是視覺上的層次，利用各個不同透視鏡位的差異、創造出的人能理解的豐富視覺感官效果，讓既使在焦距上差異變形的人體，一樣能夠清楚展現人體基本結構。此作品使用雕塑藝術中扭曲、擠壓等手法將其形體變形，在作品的成果是，成就出簡約流暢的線條，讓藏家在欣賞中感受到閱讀的立體感，在人體描寫的主題上更能聚焦。另一個層次，則是展現人們心靈上極致的力量與豐富的彈性，正如頂天立地之名，將上下肢伸展到天地的極至，並利用身體描冩空間的平衡，同時手的支點撐住了整個軀幹的重心，亦是身心柔軟與堅毅的融合的呈現，人俯仰天地的靭性、立地頂天氣勢豪邁的精神。</p>
           </article>
           <article id="surpass" className="work work--surpass">
             <h2 className="work__title">跨越 Surpass</h2>
             <p>銅、鐵底座 Bronze, Iron Base</p>
             <p>L40 x D26 x H60 cm (含底座)</p>
-            <img src="/images/works/surpass/1.jpg" alt="statue" />
-            <img src="/images/works/surpass/2.jpg" alt="statue" />
-            <img src="/images/works/surpass/3.jpg" alt="statue" />
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/surpass/1.jpg" alt="statue" />
+              <img src="/images/works/surpass/2.jpg" alt="statue" />
+              <img src="/images/works/surpass/3.jpg" alt="statue" />
+            </section>
             <p>2020「跨越」Surpass 2020
               跨越是延續頂天立地視差雕塑的視覺感受，利用各個不同透視鏡位的差異呈現美感。亦分二種層面來介紹：第一個層㳄是跨越的人體基本結構，詮釋出人體在通過運動上的速度感，並帶出能理解的豐富感官效果，讓型體在視覺焦距上做到差異變形的人體，使其作品展現出各種不同的角度，亦可得到不一樣的感受。此作品使用雕塑藝術中扭曲、擠壓等手法將其人體變形，在作品呈現上，成就出簡約流暢的線條、人體描寫主題上更聚焦，讓藏家在欣賞中感受到閱讀層次的立體感。另一個層次，則是展現人體運動與人性跨越上的極致，當肌肉骨胳彈性張力達到最高峰的時候，將下肢擴大伸展時，並利用身體尋求重心達到平衡，如青蝏點水、身心如燕的支撐住了整個軀幹的重心，看到的是身心不可言喻的力量，亦是身心結合速度、柔軟與地心引力的融合的呈現，而人正如跨越之名，時刻都展現出跨越界限勇往直前的人生精神態度。
+            </p>
+          </article>
+          <article id="reach" className="work work--reach">
+            <h2 className="work__title">跨越 Surpass</h2>
+            <p>銅、鐵底座 Bronze, Iron Base.</p>
+            <p>L40 x D26 x H60 cm (含底座).</p>
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/reach/1.jpg" alt="statue" />
+              <img src="/images/works/reach/2.jpg" alt="statue" />
+              <img src="/images/works/reach/3.jpg" alt="statue" />
+            </section>
+            <p>「觸及」Reach 2021
+              是延續頂天立地跨越視差雕塑的作品，利用各個不同透視鏡位的差異呈現美感。是利用人體基本結構，詮釋出肢體語言在視覺上做到差異變形的人體，使其作品展現出各種不同的角度，並焦距在要表達主題的感受。它反應展現人體運動與主題上能觸及的極致，讓肌肉骨胳彈性張力達到最高峰，將上臂延伸肢擴大並利用身體尋求重心達到平衡，重心的支撐住了整個軀幹，看到的是身心平衡的力量。
+            </p>
+          </article>
+          <article id="fulfillment" className="work work--fulfillment">
+            <h2 className="work__title">跨越 Surpass</h2>
+            <p>銅、鐵底座 Bronze, Iron Base.</p>
+            <p>L40 x D26 x H60 cm (含底座).</p>
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/fulfillment/1.jpg" alt="statue" />
+              <img src="/images/works/fulfillment/2.jpg" alt="statue" />
+              <img src="/images/works/fulfillment/3.jpg" alt="statue" />
+            </section>
+            <p>「圓滿」Fulfillment 2021
+              母體是孕育生命的起源，是給予生命所需的能量。至古以來，世界各種文化，世世代代都流傳著大地之母滋養與創造萬物的傳說故事。而圓滿就是藉由女體，表現出創造生命原始自然力的意識，可謂是當代版的地中海型雕塑。加入極簡概念，並藉形體的改變，抽離所有枝節末微，保留母體的必要條件，呈現由繁入簡又同時融合女體的膨脹豐腴感，僅保留必要造型，強調女性與生俱來孕育大地的本性。更傳遞出母性帶出的圓滿象徵。
+              圓滿這作品，期望藉由女體更具體地說明了地球萬物每一個形體中母性對生命的孕育與滋養。而讓觀者，在觀賞的同時擁有心靈歸屬的認同感覺，充分感受出母性滋潤的內在，並藉此感受生命萬物神聖的愛，並同時引領出每個人心中大地之母愛的表現，圓滿彼此。
+            </p>
+          </article>
+          <article id="prosperity" className="work work--prosperity">
+            <h2 className="work__title">跨越 Surpass</h2>
+            <p>銅、鐵底座 Bronze, Iron Base.</p>
+            <p>L40 x D26 x H60 cm (含底座).</p>
+            <img src="/images/works/prosperity/1.jpg" alt="statue" />
+            <img src="/images/works/prosperity/2.jpg" alt="statue" />
+            <img src="/images/works/prosperity/3.jpg" alt="statue" />
+            <p>「好孕連連」Prosperity 2021
+              人生的第一步後的作品，第一步作品中小孩學行走的連續肢體動作，讓時間這麼抽象的一個概念串流記憶空間呈現。也藉由時差藝術觀念，讓時間和空間在每一個當下創造出 好孕連連，讓看似靜止的雕塑有了視覺的新聚焦尤其在我們少子化的社會下給我們好運、薪火相傳世世代代綿延不盡。
+            </p>
+          </article>
+          <article id="final-shot" className="work work--final-shot">
+            <h2 className="work__title">跨越 Surpass</h2>
+            <p>銅、鐵底座 Bronze, Iron Base.</p>
+            <p>L40 x D26 x H60 cm (含底座).</p>
+            <section className="work__imgs work__imgs--side-by-side">
+              <img src="/images/works/final-shot/1.jpg" alt="statue" />
+              <img src="/images/works/final-shot/2.jpg" alt="statue" />
+              <img src="/images/works/final-shot/3.jpg" alt="statue" />
+            </section>
+            <p>「臨門一腳」Final Shot 2021
+              是「時差雕塑」的另一次成果展現、同樣展現視差雕塑的精神，將人體線條的美與浩瀚的心靈深刻連結。臨門一腳在形體上運用連續的人體腳步動作，展現人類在每一在緊要關頭對挑戰的勇敢，並將此力量，深刻刻畫。同時將勇敢向前的片刻用連續動作的方式來表現生命的記憶，讓時間暫停，用動作與記憶串連時間、用形體與空間去突破ㄧ瞬即逝的人體及心靈的力量。
+
+              在感受部分呈現出每個靈魂，在生命道路上總有著無數次的挑戰。而挑戰就是代表著超出當下人們能力與智慧所及的狀態，當現況是如此的充滿「挑戰」時，人們內在的心靈必須要承受許多壓力與未知的恐懼，恐懼自己是否能真的挑戰成功，恐懼自己是否有足夠的智慧面對，恐懼一切自己能力未及之處，而恐懼令人僵化，突破恐懼唯一的方式-往前走，這就是「臨門一腳」展現的力量，人們勇敢的靈魂，因為真正的勇敢不是不害怕，而是再恐懼下仍然往前。
             </p>
           </article>
         </div>

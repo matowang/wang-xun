@@ -53,5 +53,25 @@
         "id": "surpass",
         "name": "Surpass",
         "cn-name": "跨越"
+    },
+    {
+        "id": "reach",
+        "name": "Reach",
+        "cn-name": "觸及"
+    },
+    {
+        "id": "prosperity",
+        "name": "Prosperity",
+        "cn-name": "好孕連連"
+    },
+    {
+        "id": "fulfillment",
+        "name": "Fulfillment",
+        "cn-name": "圓滿"
+    },
+    {
+        "id": "final-shot",
+        "name": "Final Shot",
+        "cn-name": "臨門一腳"
     }
 ]
