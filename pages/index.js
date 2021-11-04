@@ -140,7 +140,7 @@ export default function Home() {
             </p>
           </article>
           <article id="reach" className="work work--reach">
-            <h2 className="work__title">跨越 Surpass</h2>
+            <h2 className="work__title">觸及 Reach</h2>
             <p>銅、鐵底座 Bronze, Iron Base.</p>
             <p>L40 x D26 x H60 cm (含底座).</p>
             <section className="work__imgs work__imgs--side-by-side">
@@ -153,7 +153,7 @@ export default function Home() {
             </p>
           </article>
           <article id="fulfillment" className="work work--fulfillment">
-            <h2 className="work__title">跨越 Surpass</h2>
+            <h2 className="work__title">圓滿 Fulfillment</h2>
             <p>銅、鐵底座 Bronze, Iron Base.</p>
             <p>L40 x D26 x H60 cm (含底座).</p>
             <section className="work__imgs work__imgs--side-by-side">
@@ -167,7 +167,7 @@ export default function Home() {
             </p>
           </article>
           <article id="prosperity" className="work work--prosperity">
-            <h2 className="work__title">跨越 Surpass</h2>
+            <h2 className="work__title">好孕連連 Prosperity</h2>
             <p>銅、鐵底座 Bronze, Iron Base.</p>
             <p>L40 x D26 x H60 cm (含底座).</p>
             <img src="/images/works/prosperity/1.jpg" alt="statue" />
@@ -178,7 +178,7 @@ export default function Home() {
             </p>
           </article>
           <article id="final-shot" className="work work--final-shot">
-            <h2 className="work__title">跨越 Surpass</h2>
+            <h2 className="work__title">臨門一腳 Final Shot</h2>
             <p>銅、鐵底座 Bronze, Iron Base.</p>
             <p>L40 x D26 x H60 cm (含底座).</p>
             <section className="work__imgs work__imgs--side-by-side">
