@@ -2,8 +2,16 @@ import Head from 'next/head';
 import Navbar from './navbar';
 import Footer from './footer';
 
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+    palette: {
+        mode: 'dark',
+    },
+});
+
 const Layout = ({ children, noHeaderSpace }) => (
-    <>
+    <ThemeProvider theme={theme}>
         <Head>
             <title>王尋 Wang Xun</title>
             <link rel="icon" href="/favicon.ico" />
@@ -23,7 +31,7 @@ const Layout = ({ children, noHeaderSpace }) => (
         }
         {children}
         <Footer />
-    </>
+    </ThemeProvider>
 )
 
 export default Layout;
