@@ -4,7 +4,7 @@ const Contacts = () => (
     < Layout >
         <main className="three-d-view" id="3d-seeking" dangerouslySetInnerHTML={{
             __html:
-                `<div style="max-width: 800px; max-height: 501px;">
+                `<div style="max-width: 100%; max-height: 100vh;">
                     <div style="left: 0px; width: 100%; height: 0px; position: relative; padding-bottom: 62.625%; overflow: hidden;">
                         <iframe src="/animations/seeking_XR.4.wdgt/seeking_XR.4.html"
                                     allowfullscreen
