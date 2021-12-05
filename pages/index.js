@@ -69,7 +69,7 @@ export default function Home() {
             <img src="/images/works/love-2/1.jpg" alt="statue" />
             <img src="/images/works/love-2/2.jpg" alt="statue" />
             <img src="/images/works/love-2/3.jpg" alt="statue" />
-            <a className="three-d-view-link" href="/3dview/seeking-wdgt">
+            <a className="three-d-view-link" href="/3dview/loveV2-wdgt">
               <Button className="three-d-view-btn" variant="contained"><HiCube />3D View</Button>
             </a>
             <p>「愛 2」2020是 愛的延續，用密密層層、息息相關的交集形象組成，愛，如同兩個靈魂，渴望情不自禁的在愛裡翻雲覆雨，讓心靈彼此無縫隙的接觸，「愛 2」是一種心靈與肢體美感經驗的極致延伸，象徵著強烈想進入彼此心靈深處，纏綿悱惻的美。這股美透過作品的造型，巧妙的隱喻出，生命活耀的能量與心靈存在的基本原始價值，真實的透過型紀錄出，大千世界裡愛的成就與存在</p>
