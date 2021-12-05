@@ -143,6 +143,11 @@ export default function Home() {
               <img src="/images/works/indomitable/2.jpg" alt="statue" />
               <img src="/images/works/indomitable/3.jpg" alt="statue" />
             </section>
+            <ThemeProvider theme={theme}>
+              <a href="/3dview/indomitable">
+                <Button className="three-d-view-btn" variant="contained"><HiCube />3D View</Button>
+              </a>
+            </ThemeProvider>
             <p>「頂天立地」Indomitable 頂天立地反應兩個層面的領悟，一個是視覺上的層次，利用各個不同透視鏡位的差異、創造出的人能理解的豐富視覺感官效果，讓既使在焦距上差異變形的人體，一樣能夠清楚展現人體基本結構。此作品使用雕塑藝術中扭曲、擠壓等手法將其形體變形，在作品的成果是，成就出簡約流暢的線條，讓藏家在欣賞中感受到閱讀的立體感，在人體描寫的主題上更能聚焦。另一個層次，則是展現人們心靈上極致的力量與豐富的彈性，正如頂天立地之名，將上下肢伸展到天地的極至，並利用身體描冩空間的平衡，同時手的支點撐住了整個軀幹的重心，亦是身心柔軟與堅毅的融合的呈現，人俯仰天地的靭性、立地頂天氣勢豪邁的精神。</p>
           </article>
           <article id="surpass" className="work work--surpass">
