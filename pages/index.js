@@ -69,6 +69,9 @@ export default function Home() {
             <img src="/images/works/love-2/1.jpg" alt="statue" />
             <img src="/images/works/love-2/2.jpg" alt="statue" />
             <img src="/images/works/love-2/3.jpg" alt="statue" />
+            <a className="three-d-view-link" href="/3dview/seeking-wdgt">
+              <Button className="three-d-view-btn" variant="contained"><HiCube />3D View</Button>
+            </a>
             <p>「愛 2」2020是 愛的延續，用密密層層、息息相關的交集形象組成，愛，如同兩個靈魂，渴望情不自禁的在愛裡翻雲覆雨，讓心靈彼此無縫隙的接觸，「愛 2」是一種心靈與肢體美感經驗的極致延伸，象徵著強烈想進入彼此心靈深處，纏綿悱惻的美。這股美透過作品的造型，巧妙的隱喻出，生命活耀的能量與心靈存在的基本原始價值，真實的透過型紀錄出，大千世界裡愛的成就與存在</p>
           </article>
           <article id="expecting" className="work work--expecting">
@@ -113,11 +116,8 @@ export default function Home() {
               <img src="/images/works/seeking/3.jpg" alt="statue" />
             </section>
             <ThemeProvider theme={theme}>
-              <a href="/3dview/seeking">
-                <Button className="three-d-view-btn" variant="contained"><HiCube />3D View</Button>
-              </a>
               <a href="/3dview/seeking-wdgt">
-                <Button className="three-d-view-btn" variant="contained"><HiCube />3D View Mobile</Button>
+                <Button className="three-d-view-btn" variant="contained"><HiCube />3D View</Button>
               </a>
             </ThemeProvider>
             <p>「找尋」Seeking 是論述心靈成長的過程，亦是我創立的時差雕塑的成熟代表作，在作品中，藉由空間裡有序列動作的肢體語言來描述心靈內在的故事，甚至能將夢境中岀現的畫面一一呈現出來。每一刻的早晨，腦海裡都僅存著如實如幻的記憶，片片刻刻。「尋找」，即是這一刻珍貴僅存的記憶創作出的，在尋找實體的雕塑中，能到看到夢中海水的顏色波紋，層層疊疊，就像是在無邊無際的心靈深海中深深地、深深地找尋一個結果。「尋找」讓這如夢如幻的記憶，慢慢的成形，如同寬廣的大海中，總能見到海水的波紋，讓海水的記憶一層一層浮現。「尋找」探索夢中子虚烏有的時間，讓無中生有的記憶，找尋到消縱即逝的美好。</p>
