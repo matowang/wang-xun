@@ -26,7 +26,9 @@ export default function Home() {
           {/* <img id="expo-poster" src="/images/art-taipei-2021.jpg" alt="expo poster" /> */}
         </section>
         <div className="content">
-
+          <div className="videowrapper">
+            <iframe src="https://www.youtube.com/embed/rXdJrMFju5Y" title="YouTube video player" frameborder="0" allow="fullscreen;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <section className="description">
             <p>Born in the era of traditional art craftsmanship alongside the rise of digital development, I am an artist who has had the chance to utilize both of these art forms. After studying at the sculpture department at the National Taiwan University of Arts, I developed the ability to sculpt human figures and acquired expertise in the art of sculpting. Striving to innovate on my artistic path, I went abroad for further studies. After I graduated from the New York Institute of Technology, I did 3D modeling work in a well-known visual effects company for nearly a decade, and I became well-versed in 3D animation and digital art production. All of these experiences inspired me to combine traditional and digital art mediums into a single piece of artwork. Through continuous exploration based on traditional skills, coupled with high-tech expertise, I cultivated a set of unique personal cross-generational artworks, what I call the "Space in Time" sculptures.</p>
             <WorksGrid />

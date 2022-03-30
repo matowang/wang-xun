@@ -1,3 +1,19 @@
+.three-d-view {
+    height: 100vh;
+    width: 100vw;
+    &__iframe {
+        position: absolute;
+        transform: translate(-50%, 0%);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+        
+    }
+}
+
 .three-d-view-btn {
     text-decoration: none;
 }
@@ -5,4 +21,13 @@
 .three-d-view-btn {
     margin: 1em 1em 1em 0;
     text-decoration: none;
+}
+
+keyshot-container {
+    left: 0px; 
+    width: 100%; 
+    height: 0px; 
+    position: relative; 
+    padding-bottom: 100%; 
+    overflow: hidden;
 }
