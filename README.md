@@ -2,7 +2,7 @@ This is a Artist Portfolio for scultor, Xun Wang. Visit live website at https://
 
 ## Run
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
