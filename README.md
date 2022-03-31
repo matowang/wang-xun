@@ -1,4 +1,4 @@
-This is a Artist Portfolio for scultor, Xun Wang. Visit live website at https://xunwang.art/.
+This is an Artist Portfolio for sculptor, Xun Wang. Visit live website at https://xunwang.art/.
 
 ## Run
 
